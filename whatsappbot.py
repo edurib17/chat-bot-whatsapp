@@ -8,8 +8,8 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://web.whatsapp.com/')
 time.sleep(30)
 
-contatos = ['Pedro']
-mensagem = 'Teste Bot'
+contatos = ['Nome contato']
+mensagem = 'Mensagem...'
 
 
 def buscar_contato(contato):
